@@ -52,7 +52,7 @@ def main():
     print(banner)
     select = int(input('┌───── SELECT OPTIONS\n└───> '))
     if select == 0:
-        exit()
+        sys.exit()
     elif select == 1:
         num1 = int(input("┌───── INPUT NUMBERS\n└[1]──> "))
         num2 = int(input("┌───── INPUT NUMBERS\n└[2]──> "))
